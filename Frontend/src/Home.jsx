@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import styles from "./Home.module.css";
 
-const API_BASE_URL = "http://localhost:3000/api";
+const API_BASE_URL = "https://emailbuilder-hha7.onrender.com/api";
 
 const EmailBuilder = () => {
   const [template, setTemplate] = useState({
